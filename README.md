@@ -23,7 +23,7 @@ design-system/
 └─ README.md
 ```
 
-## 🎨 1. 디자인 토큰 정의
+## 🎨 1. 디자인 토큰 정의 (예시)
 
 `tokens/color.json`
 
@@ -72,17 +72,9 @@ module.exports = {
 };
 ```
 
----
 
-## 🔧 3. 빌드 실행
 
-```bash
-npx style-dictionary build
-```
-
----
-
-## 🧪 4. React에서 사용
+## 🧪 3. React 코드 예시
 
 `src/Button.jsx`
 
@@ -105,15 +97,6 @@ export const Button = ({ children }) => (
 
 ---
 
-## 🌱 5. Git 형상관리
-
-```bash
-git init
-git remote add origin https://github.com/your-org/design-system.git
-git add .
-git commit -m "init: 디자인 토큰 및 설정 추가"
-git push -u origin main
-```
 
 
 ## 📚 프로세스 요약
